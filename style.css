@@ -1,0 +1,138 @@
+
+body{
+    margin: 0;
+}
+.half-width h1{
+    font-size: 50px;
+    font-family: 'Quicksand', sans-serif;
+    color: whitesmoke;
+}
+.half-width p{
+    color: whitesmoke;
+    margin-bottom: 40px;
+    font-family: 'Lato', sans-serif;
+}
+.upper-part{
+    display: flex;
+    background-color:black;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 50px;
+    padding-top: 15px;
+    margin:50px;
+    margin-left:70px;
+    margin-right: 70px;
+    margin-bottom: 100px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 10%;
+}
+.half-width img{
+    width: 100%;
+    display: block;
+}
+.link-btn{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: rgba(240, 13, 13, 0.826);
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-family: 'Quicksand', sans-serif;
+}
+.three-btn{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    /* flex-direction: column; */
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    padding: 45px;
+    padding-top: 55px;
+    width: 200px;
+    height: 180px;
+    border-radius: 10px;
+    margin-left: 70px;
+    margin-right: 10px;
+}
+.btn{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    width: 200px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    color: black;
+    padding:12px 16px;
+    background-color: whitesmoke;
+}
+#third{
+    background-color: red;
+}
+.players{
+    margin-left: 332px;
+    margin-top: -278px;
+    margin-right: 105px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+
+.player img{
+    width: 253px;
+    height: 145px;
+    margin-bottom: 20px;
+}
+.player p{
+    margin-bottom: 30px;
+}
+.inner{
+    text-decoration: none;
+    border: 1px solid rgb(45, 44, 44);
+    border-radius: 4px ;
+    background-color: whitesmoke;
+    color: black;
+    padding: 7px 25px;
+   margin-left: 15px;
+}
+#clock{
+    margin-right: 25px;
+    margin-left: 15px;
+}
+.player{
+    border: 1px solid wheat;
+    border-radius: 15px;
+    margin-left: 55px;
+    margin-right: -35px;
+    margin-bottom: 20px;
+}
+.player p{
+    font-weight:600;
+    font-family: 'lato',sans-serif;
+    margin-left: 15px;
+}
+.lower-part{
+    margin-bottom: 100px;
+}
+footer{
+    background-color: rgb(35, 34, 34);
+    height: 300px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+footer h1{
+    font-family: 'Roboto Slab', serif;
+  color: white;
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid gainsboro;
+
+}
+.content{
+    color: gainsboro;
+    display: flex;
+    font-family: 'Roboto Slab', serif;
+   justify-content: space-around;
+}
