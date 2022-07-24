@@ -164,13 +164,18 @@ second-page style */
      display: flex;
      flex-direction: column;
       }
-      .banner img{
-        margin-top: -50px;
-        margin-left: -170px;
+      .first-part{
+        display: flex;
+        flex-direction: column;
       }
-    
+      .banner img{
+       margin-left: -50px;
+      }
       .buttn{
         width: 50%;
+      }
+      .three-btn{
+       margin-right: 50px;
       }
       .flags{
         display: flex;
@@ -209,7 +214,8 @@ second-page style */
         width: 15%;
       }
       .banner img{
-        margin-left: 150px;
+        margin-left: 390px;
+        margin-top: -200px;
       }
       .container-2{
         display: grid;
@@ -222,9 +228,18 @@ second-page style */
             display: grid;
             grid-template-columns: repeat(2,1fr);
           }
+          .player img{
+           width: 100%;
+          }
+          
           .container{
          display: flex;
          flex-direction: column;
           }
+          .flags{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+          }
+       
 }
 
