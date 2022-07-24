@@ -198,6 +198,9 @@ second-page style */
         flex-direction: column;
         margin-left: -1px;
       }
+      .footer{
+        margin-left: 20px;
+      }
 }
 
 /* Media queries */
@@ -209,6 +212,7 @@ second-page style */
         width: 100%;
         display: grid;
         grid-template-columns: repeat(1,1fr);
+        margin-left: -10px;
       }
       .buttn{
         width: 15%;
@@ -240,6 +244,8 @@ second-page style */
             display: grid;
             grid-template-columns: repeat(2,1fr);
           }
-       
+       .footer{
+    margin-left: 20px;
+       }
 }
 
